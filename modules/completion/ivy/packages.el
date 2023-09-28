@@ -21,4 +21,4 @@
   (package! ivy-posframe :pin "533a8e368fcabfd534761a5c685ce713376fa594"))
 
 (when (modulep! +icons)
-  (package! nerd-icons-ivy-rich :pin "7197614b27fd562e64b11c91d41bed4443aded90"))
+  (package! nerd-icons-ivy-rich :recipe (:host github :repo "seagle0128/nerd-icons-ivy-rich")))
